@@ -1,8 +1,7 @@
-var NUM_FILES = 2;
+var NUM_FILES = 30;
 
 function loadImg() {
-	var numFiles = 2;
-	var i = Math.floor(Math.random() * numFiles);
+	var i = Math.floor(Math.random() * NUM_FILES);
 	var imgUrl = 'images/'+i+'.jpg';
 
 	var mainImg = document.getElementById('mainImg');
