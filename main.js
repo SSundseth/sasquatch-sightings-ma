@@ -14,9 +14,9 @@ function loadGallery() {
 	var html = "";
 
 	for (var i=0; i <= NUM_FILES; i++) {
-		html += "<div class='col-lg-3 col-md-4 col-6'>";
-		html += "<a href='#' class='d-block mb-4 h-100'>";
-		html += "<img class='img-fluid img-thumbnail' src='images/"+i+".jpg' alt=''>";
+		html += "<div class='col-sm-2 col-xs-3'>";
+		html += "<a href='#' class='d-block h-100'>";
+		html += "<img class='img-thumbnail' src='images/"+i+".jpg' alt=''>";
 		html += "</a></div>";
 	}
 

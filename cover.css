@@ -26,6 +26,11 @@ a:hover {
  * Base structure
  */
 
+.img-thumbnail {
+	height:100px;
+	width:auto;
+}
+
 html,
 body {
   height: 100%;
