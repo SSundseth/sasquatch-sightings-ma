@@ -1,4 +1,4 @@
-var NUM_FILES = 30;
+var NUM_FILES = 92;
 
 function loadImg() {
 	var i = Math.floor(Math.random() * NUM_FILES);
