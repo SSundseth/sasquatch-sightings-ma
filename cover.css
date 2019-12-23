@@ -110,6 +110,11 @@ body {
   }
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*
  * Cover
@@ -124,7 +129,7 @@ body {
 }
 
 .container {
-  padding: 20px 20px 20px 20px;
+  padding: 80px 20px 20px 20px;
 }
 
 
